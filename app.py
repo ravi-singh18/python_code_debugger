@@ -34,3 +34,4 @@ if st.button("Generate") == True:
 
         st.write(review)
         st.write(review["Bugs"])
+        st.code(review["Fixed_code"], language='python')
