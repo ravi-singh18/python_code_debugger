@@ -25,7 +25,7 @@ if st.button("Generate") == True:
             and generate the correct code in output. you will generate output in JSON file.
             your output sample is given below:
             {"Bugs": "errors of code" , "Fixed_code": "correct code"}"""},
-            {"role": "user", "content": f"explain the bugs and fix the code given: {prompt}"}
+            {"role": "user", "content": f"explain the Bugs and Fixed_code: {prompt}"}
             ],
             temperature = 0.5
         )
